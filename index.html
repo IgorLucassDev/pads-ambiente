@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pads Ambiente</title>
+    <link rel="stylesheet" href="src/css/global.css">
+</head>
+<body>
+    <main class="container">
+        <img src="logo.png" class="logo" alt="Logo quadrangular">
+        <h1>Pads Ambiente</h1>
+        <select name="pads" id="pads">
+            <option value="foundations">Foundations</option>
+            <option value="organic">Organic</option>
+        </select>
+        <div class="notes">
+            <div>
+                <button onclick="playNote('C')" class="note">C</button>
+                <button onclick="playNote('C#')" class="note">C#</button>
+                <button onclick="playNote('D')" class="note">D</button>
+                <button onclick="playNote('D#')" class="note">D#</button>
+                <button onclick="playNote('E')" class="note">E</button>
+                <button onclick="playNote('F')" class="note">F</button>
+            </div>
+            <div>
+                <button onclick="playNote('F#')" class="note">F#</button>
+                <button onclick="playNote('G')" class="note">G</button>
+                <button onclick="playNote('G#')" class="note">G#</button>
+                <button onclick="playNote('A')" class="note">A</button>
+                <button onclick="playNote('A#')" class="note">A#</button>
+                <button onclick="playNote('B')" class="note">B</button>
+            </div>
+            
+            <button onclick="stopSuave()" class="stop">Stop</button>
+
+            <p>By Igor Lucas</p>
+        </div>
+
+    </main>
+    <script src="src/js/player.js"></script>
+    <script src="src/js/showPads.js"></script>
+</body>
+</html>

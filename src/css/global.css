@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #01030B;
+    color: #e5e5e5;
+    padding: 30px;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.note{
+    margin: 5px;
+    border: none;
+    border-radius: 40px;
+    width: 64px;
+    height: 64px;
+    color: #e5e5e5;
+    background-color: #2d2d2d98;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notes{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    visibility: hidden;
+}
+
+.stop{
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #e5e5e5;
+    background-color: #D11A1A;
+}
+
+#pads{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #e5e5e5;
+    background-color: #1a1dd1;
+}
+
+.logo{
+    width: 50px;
+    box-shadow: 4px 4px 10px #00000041;
+}
+
+option{
+    background-color: black;
+}
